@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow:
+        3px 0px 2px #000000,
+        -3px 0px 2px #000000,
+        -3px 0px 0 #000000,
+        3px 0px 0 #000000;
+}
+    
+body {
+    background-image: url("/images/Battlefield6.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
