@@ -1,15 +1,86 @@
+/*le "*" ça veut dire pour tout*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ici c'est le style du corps de la page*/
+body {
+    background-color: #524040;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/*là c'est le style du conteneur qui contient mon h1, mes paragraphes et mon bouton*/
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*style du titre principal*/
 h1 {
     text-align: center;
     color: aliceblue;
-    text-shadow:
-        3px 0px 2px #000000,
-        -3px 0px 2px #000000,
-        -3px 0px 0 #000000,
-        3px 0px 0 #000000;
+    margin-bottom: 10px;
+    text-shadow: 0px 5px 10px #000;
 }
-    
-body {
-    background-image: url("/images/Battlefield6.jpg");
-    background-repeat: repeat-x;
-    background-size: cover;
+
+/*pour ce qu'il y'a dans l'en-tête*/
+.header {
+    padding: 40px 0;
+    text-align: center;
+}
+/*style de l'image principale*/
+.hero-img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+/*style du pied de page*/
+.footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+/*style du bouton au début*/
+.button {
+    display: inline-block;
+    background-color: #ff7b00;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 10px #000;
+}
+/*style du bouton une fois appuyé*/
+.button:hover {
+    background-color: #ff9500;
+    transform: scale(1.2);
+}
+
+
+/* media queries */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.95rem;
+    }
+
+    .footer {
+        font-size: 0.85rem;
+    }
 }
