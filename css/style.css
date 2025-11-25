@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/*CSS page1*/
 /*ici c'est le style du corps de la page*/
 body {
     background-color: #524040;
@@ -50,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    animation: hideLoader 3s forwards;
+    animation: hideLoader 1.5s forwards;
 }
 
 /*chragement en dessous du loader*/
@@ -196,6 +197,47 @@ h1 {
     text-shadow: 0px 0px 5px #000;
 }
 
+/*CSS page2*/
+
+/*pour toutes les sections*/
+.section-box {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.section-box h2 {
+    margin-bottom: 12px;
+    font-size: 1.7rem;
+    text-shadow: 0px 0px 15px #ffc400;
+}
+
+.section-box p,
+.section-box ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.section-box ul {
+    margin-left: 20px;
+}
+
+.section-img {
+    width: 100%;
+    max-width: 850px;
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 10px;
+}
+
+/*Le bouton retour*/
+.back-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
 /* media queries */
 @media (max-width: 700px) {
 
@@ -232,5 +274,3 @@ h1 {
         font-size: 0.95rem;
     }
 }
-
-/*faire un spinner (temps pour que la page apparaisse pour la prochaine fois*/
