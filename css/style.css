@@ -93,6 +93,11 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
 /*pour ce qu'il y'a dans l'en-tête*/
 .header {
     padding: 20px 0;
@@ -329,6 +334,11 @@ video {
         font-size: 2rem;
     }
 
+    h2 {
+  font-size: 13px;
+  font-weight: 700;
+}
+
     .header p {
         font-size: 0.95rem;
     }
@@ -365,6 +375,11 @@ video {
     h1 {
         font-size: 1.8rem;
     }
+
+      h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
 
     .header {
         padding: 15px 0;
